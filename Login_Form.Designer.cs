@@ -28,23 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnClose_Click = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.btnEntrar_Click = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(188, 219);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(123, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Location = new System.Drawing.Point(122, 219);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(189, 13);
+            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label
             // 
@@ -56,17 +59,18 @@
             this.label.TabIndex = 2;
             this.label.Text = "Usuário";
             // 
-            // button1
+            // btnClose_Click
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(188, 356);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 58);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnClose_Click.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnClose_Click.FlatAppearance.BorderSize = 0;
+            this.btnClose_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose_Click.Location = new System.Drawing.Point(188, 356);
+            this.btnClose_Click.Name = "btnClose_Click";
+            this.btnClose_Click.Size = new System.Drawing.Size(116, 58);
+            this.btnClose_Click.TabIndex = 3;
+            this.btnClose_Click.Text = "Cancelar";
+            this.btnClose_Click.UseVisualStyleBackColor = false;
+            this.btnClose_Click.Click += new System.EventHandler(this.btnClose_click);
             // 
             // label2
             // 
@@ -77,24 +81,27 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha";
             // 
-            // textBox2
+            // txtSenha
             // 
-            this.textBox2.Location = new System.Drawing.Point(188, 278);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(123, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSenha.Location = new System.Drawing.Point(122, 278);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(189, 13);
+            this.txtSenha.TabIndex = 5;
             // 
-            // button2
+            // btnEntrar_Click
             // 
-            this.button2.BackColor = System.Drawing.Color.LightGreen;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(45, 356);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 58);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Entrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEntrar_Click.BackColor = System.Drawing.Color.LightGreen;
+            this.btnEntrar_Click.FlatAppearance.BorderSize = 0;
+            this.btnEntrar_Click.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEntrar_Click.Location = new System.Drawing.Point(45, 356);
+            this.btnEntrar_Click.Name = "btnEntrar_Click";
+            this.btnEntrar_Click.Size = new System.Drawing.Size(116, 58);
+            this.btnEntrar_Click.TabIndex = 6;
+            this.btnEntrar_Click.Text = "Entrar";
+            this.btnEntrar_Click.UseVisualStyleBackColor = false;
+            this.btnEntrar_Click.Click += new System.EventHandler(this.btnEntrar_click);
             // 
             // label1
             // 
@@ -127,12 +134,12 @@
             this.ClientSize = new System.Drawing.Size(372, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnEntrar_Click);
+            this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClose_Click);
             this.Controls.Add(this.label);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUsuario);
             this.MaximumSize = new System.Drawing.Size(388, 489);
             this.MinimumSize = new System.Drawing.Size(388, 489);
             this.Name = "Login_Form";
@@ -145,12 +152,12 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClose_Click;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.Button btnEntrar_Click;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

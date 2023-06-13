@@ -10,7 +10,7 @@ namespace Gestor
     internal static class Program
     {
         /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
+        /// Ponto dSe entrada principal para o aplicativo.
         /// </summary>
         [STAThread]
         static void Main()
