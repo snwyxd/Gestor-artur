@@ -55,7 +55,7 @@ namespace Gestor
             }
             else 
             {
-                MessageBox.Show("NO");    
+                MessageBox.Show("Usuário ou senha  inválidos", "Erro de login", MessageBoxButtons.OK, MessageBoxIcon.Error);    
             }
         }
     }

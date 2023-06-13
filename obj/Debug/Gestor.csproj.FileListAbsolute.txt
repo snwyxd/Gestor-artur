@@ -16,3 +16,21 @@ C:\Users\nicolas.snascimento2\source\repos\Gestor\Gestor\bin\Debug\System.Numeri
 C:\Users\nicolas.snascimento2\source\repos\Gestor\Gestor\bin\Debug\System.Buffers.dll
 C:\Users\nicolas.snascimento2\source\repos\Gestor\Gestor\bin\Debug\MySql.Data.xml
 C:\Users\nicolas.snascimento2\source\repos\Gestor\Gestor\obj\Debug\Gestor.csproj.CopyComplete
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\Gestor.exe.config
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\Gestor.exe
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\Gestor.pdb
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\MySql.Data.dll
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\System.Memory.dll
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\System.Buffers.dll
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\bin\Debug\MySql.Data.xml
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.csproj.AssemblyReference.cache
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.csproj.SuggestedBindingRedirects.cache
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.Login_Form.resources
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.Properties.Resources.resources
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.csproj.GenerateResource.cache
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.csproj.CoreCompileInputs.cache
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.csproj.CopyComplete
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.exe
+C:\Users\nicolas.snascimento2\source\repos\Gestor 2.0\Gestor\obj\Debug\Gestor.pdb
