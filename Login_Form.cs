@@ -51,7 +51,7 @@ namespace Gestor
 
             if (tabela.Rows.Count > 0)
             {
-                MessageBox.Show("YES");
+                this
             }
             else 
             {
